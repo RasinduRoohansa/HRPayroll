@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class DataImporter {
     public ArrayList<Employee> importDataFileCSV(String fileName){
-        ArrayList<Employee> employeeList=new ArrayList<>();
+        ArrayList<Employee> employeeList=new ArrayList();
         String line;
         try {
             BufferedReader reader=new BufferedReader(new FileReader(fileName));

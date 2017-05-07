@@ -23,12 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d08899a4-c669-41e9-8679-c3570ab4beeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HRPayrollSystem.iml" afterPath="$PROJECT_DIR$/HRPayrollSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/DataImporter.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/DataImporter.java" />
     </list>
     <list id="4ac6d9f1-21b3-40bf-8b7e-f0ddfef35f48" name="New changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -904,11 +899,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494150189982</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added log4j2 logging configuration">
+      <created>1494151624148</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1494151624148</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12600000" />
+    <option name="totallyTimeSpent" value="12672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1050,7 +1052,8 @@
     <MESSAGE value="changed implimentation" />
     <MESSAGE value="changes from upstream" />
     <MESSAGE value="merged conflicts" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged conflicts" />
+    <MESSAGE value="added log4j2 logging configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="added log4j2 logging configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

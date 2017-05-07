@@ -5,6 +5,11 @@
  */
 package com.qualitycoder.groupG;
 
+import com.qualitycoder.groupG.types.Leave;
+import com.qualitycoder.groupG.types.LeaveType;
+import com.qualitycoder.groupG.types.MedicalLeave;
+import com.qualitycoder.groupG.types.PersonalLeave;
+
 /**
  *
  * @author Ashan

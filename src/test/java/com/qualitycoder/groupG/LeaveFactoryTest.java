@@ -5,8 +5,9 @@
  */
 package com.qualitycoder.groupG;
 
-import java.util.ArrayList;
 import static org.hamcrest.core.Is.is;
+
+import com.qualitycoder.groupG.types.LeaveType;
 import org.junit.Assert;
 import org.junit.Test;
 

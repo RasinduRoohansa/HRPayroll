@@ -8,7 +8,6 @@ import java.util.ArrayList;
  * Created by RasinduRoohansa on 07-05-2017.
  */
 public class DataImporter {
-
     public ArrayList<Employee> importDataFileCSV(String fileName){
         ArrayList<Employee> employeeList=new ArrayList<>();
         String line;

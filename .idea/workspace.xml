@@ -24,11 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d08899a4-c669-41e9-8679-c3570ab4beeb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Benifit.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Benifit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Housing.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Housing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/MedicalFee.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/MedicalFee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Overtime.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Overtime.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/TravelAllowance.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/TravelAllowance.java" />
     </list>
     <list id="4ac6d9f1-21b3-40bf-8b7e-f0ddfef35f48" name="New changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -748,7 +743,7 @@
       <workItem from="1494143277011" duration="479000" />
       <workItem from="1494148126057" duration="801000" />
       <workItem from="1494149050535" duration="9000" />
-      <workItem from="1494149256557" duration="294000" />
+      <workItem from="1494149256557" duration="331000" />
     </task>
     <task id="LOCAL-00001" summary="data importer added">
       <created>1494141870726</created>
@@ -785,14 +780,22 @@
       <option name="project" value="LOCAL" />
       <updated>1494148631332</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changed implimentation">
+      <created>1494149566445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1494149566445</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10748000" />
+    <option name="totallyTimeSpent" value="10785000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -907,7 +910,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/RasinduRoohansa/HRPayroll&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
     <MESSAGE value="changed project structure" />
     <MESSAGE value="Merge branch 'master' of https://github.com/RasinduRoohansa/HRPayroll into upstream-master&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/qualitycoder/groupG/Employee.java&#10;#&#9;src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/RasinduRoohansa/HRPayroll into upstream-master&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/qualitycoder/groupG/Employee.java&#10;#&#9;src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
+    <MESSAGE value="changed implimentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed implimentation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

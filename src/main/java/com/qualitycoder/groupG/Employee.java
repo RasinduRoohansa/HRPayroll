@@ -1,8 +1,5 @@
 package com.qualitycoder.groupG;
 
-import java.util.ArrayList;
-import java.util.Date;
-
 /**
  * Created by pravindap on 5/7/17.
  */
@@ -20,12 +17,6 @@ public class Employee {
 
     private PaySheet paySheet;
 
-    public void addEmployee(
-            String empId, String name, Character gender, String dob, String designation, Double basicSalary,
-            Double epfContribution, String phoneNumber, String address){
-        this.empId = empId;
-    }
-
     public Employee(){
 
     }
@@ -41,22 +32,6 @@ public class Employee {
         this.epfContribution=epfContribution;
         this.phoneNumber=phoneNumber;
         this.address=address;
-    }
-
-
-
-    public Employee viewEmployeeDetails(String empId,ArrayList<Employee> employees){
-        Employee emp=null;
-        for(Employee employee:employees) {
-            if (empId.equals(employee.getEmpId())) {
-                emp= employee;
-
-            }
-        }
-
-        return emp;
-
-
     }
 
 
@@ -138,5 +113,48 @@ public class Employee {
 
     public void setPaySheet(PaySheet paySheet) {
         this.paySheet = paySheet;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Employee employee = (Employee) o;
+
+        if (empId != null ? !empId.equals(employee.empId) : employee.empId != null) return false;
+        if (name != null ? !name.equals(employee.name) : employee.name != null) return false;
+        if (gender != null ? !gender.equals(employee.gender) : employee.gender != null) return false;
+        if (dob != null ? !dob.equals(employee.dob) : employee.dob != null) return false;
+        if (designation != null ? !designation.equals(employee.designation) : employee.designation != null)
+            return false;
+        if (basicSalary != null ? !basicSalary.equals(employee.basicSalary) : employee.basicSalary != null)
+            return false;
+        if (epfContribution != null ? !epfContribution.equals(employee.epfContribution) : employee.epfContribution != null)
+            return false;
+        if (phoneNumber != null ? !phoneNumber.equals(employee.phoneNumber) : employee.phoneNumber != null)
+            return false;
+        if (address != null ? !address.equals(employee.address) : employee.address != null) return false;
+        return paySheet != null ? paySheet.equals(employee.paySheet) : employee.paySheet == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = empId != null ? empId.hashCode() : 0;
+        result = 31 * result + (name != null ? name.hashCode() : 0);
+        result = 31 * result + (gender != null ? gender.hashCode() : 0);
+        result = 31 * result + (dob != null ? dob.hashCode() : 0);
+        result = 31 * result + (designation != null ? designation.hashCode() : 0);
+        result = 31 * result + (basicSalary != null ? basicSalary.hashCode() : 0);
+        result = 31 * result + (epfContribution != null ? epfContribution.hashCode() : 0);
+        result = 31 * result + (phoneNumber != null ? phoneNumber.hashCode() : 0);
+        result = 31 * result + (address != null ? address.hashCode() : 0);
+        result = 31 * result + (paySheet != null ? paySheet.hashCode() : 0);
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Employee{empId='%s', name='%s', gender=%s, dob='%s', designation='%s', basicSalary=%s, epfContribution=%s, phoneNumber='%s', address='%s', paySheet=%s}", empId, name, gender, dob, designation, basicSalary, epfContribution, phoneNumber, address, paySheet);
     }
 }

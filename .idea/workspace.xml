@@ -24,9 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d08899a4-c669-41e9-8679-c3570ab4beeb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HRPayrollSystem.iml" afterPath="$PROJECT_DIR$/HRPayrollSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/EmployeeTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -719,11 +716,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494143513101</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modified employee">
+      <created>1494147785887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1494147785887</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9589000" />
+    <option name="totallyTimeSpent" value="9644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -858,7 +862,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="data importer added" />
     <MESSAGE value="modified pom for adopt java 8&#10;added .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified pom for adopt java 8&#10;added .gitignore" />
+    <MESSAGE value="modified employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified employee" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

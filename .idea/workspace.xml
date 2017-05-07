@@ -23,28 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d08899a4-c669-41e9-8679-c3570ab4beeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/domain/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/domain/PaySheet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/domain/Salary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/domain/SalarySheet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Benifit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Housing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/MedicalFee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Overtime.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/TravelAllowance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/HousingTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/MedicalFeeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/OvertimeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/SalaryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/TravelAllowanceTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/Employee.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/PaySheet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/Salary.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/SalarySheet.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HRPayrollSystem.iml" afterPath="$PROJECT_DIR$/HRPayrollSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/DataImporter.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/DataImporter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/Employee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/EmployeeTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
     </list>
+    <list id="4ac6d9f1-21b3-40bf-8b7e-f0ddfef35f48" name="New changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,8 +73,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/PaySheet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/Employee.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/domain/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/domain/Salary.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/domain/PaySheet.java" />
@@ -103,6 +83,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/Overtime.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/types/TravelAllowance.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/SalaryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/Employee.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
       </list>
     </option>
   </component>
@@ -155,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -223,7 +206,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -683,6 +665,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d08899a4-c669-41e9-8679-c3570ab4beeb" name="Default" comment="" />
+      <changelist id="4ac6d9f1-21b3-40bf-8b7e-f0ddfef35f48" name="New changelist" comment="" />
       <created>1494130674386</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -692,6 +675,7 @@
       <workItem from="1494143277011" duration="479000" />
       <workItem from="1494148126057" duration="801000" />
       <workItem from="1494149050535" duration="9000" />
+      <workItem from="1494149256557" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="data importer added">
       <created>1494141870726</created>
@@ -732,7 +716,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10454000" />
+    <option name="totallyTimeSpent" value="10544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -745,10 +729,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36764705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36601308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27155825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -849,7 +833,8 @@
     <MESSAGE value="modified employee" />
     <MESSAGE value="Merge branch 'master' of https://github.com/RasinduRoohansa/HRPayroll&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
     <MESSAGE value="changed project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed project structure" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/RasinduRoohansa/HRPayroll into upstream-master&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/qualitycoder/groupG/Employee.java&#10;#&#9;src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/RasinduRoohansa/HRPayroll into upstream-master&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/java/com/qualitycoder/groupG/Employee.java&#10;#&#9;src/test/java/com/qualitycoder/groupG/EmployeeTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1184,14 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/EmployeeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/HousingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1228,6 +1205,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qualitycoder/groupG/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qualitycoder/groupG/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,7 @@
 package com.qualitycoder.groupG;
 
+import com.qualitycoder.groupG.domain.Employee;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -9,7 +11,7 @@ import java.util.ArrayList;
  */
 public class DataImporter {
     public ArrayList<Employee> importDataFileCSV(String fileName){
-        ArrayList<Employee> employeeList=new ArrayList<>();
+        ArrayList<Employee> employeeList=new ArrayList();
         String line;
         try {
             BufferedReader reader=new BufferedReader(new FileReader(fileName));

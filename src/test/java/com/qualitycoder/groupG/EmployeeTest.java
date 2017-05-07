@@ -1,5 +1,6 @@
 package com.qualitycoder.groupG;
 
+import com.qualitycoder.groupG.domain.Employee;
 import org.junit.Test;
 
 /**

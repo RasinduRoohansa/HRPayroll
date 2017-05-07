@@ -8,7 +8,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Created by iSeeQ on 5/7/2017.
+ * @author iSeeQ on 5/7/2017.
  */
 public class MedicalFeeTest {
     @Test

@@ -4,7 +4,7 @@ import com.qualitycoder.groupG.domain.Employee;
 import org.junit.Test;
 
 /**
- * Created by pravindap on 5/7/17.
+ * @author  pravindap on 5/7/17.
  */
 public class EmployeeTest {
     @Test

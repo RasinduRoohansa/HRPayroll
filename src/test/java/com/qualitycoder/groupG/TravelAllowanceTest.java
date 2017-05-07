@@ -12,7 +12,6 @@ import static org.junit.Assert.assertThat;
 public class TravelAllowanceTest {
     @Test
     public void calculateMedicalFee_when_EmployeeHasACar(){
-
         boolean hasACar=true;
         TravelAllowance travelAllowance=new TravelAllowance(hasACar);
         double employeeTravelAllowance=travelAllowance.calculate();
@@ -21,7 +20,6 @@ public class TravelAllowanceTest {
 
     @Test
     public void calculateMedicalFee_when_EmployeeHasNotACar(){
-
         boolean hasACar=false;
         TravelAllowance travelAllowance=new TravelAllowance(hasACar);
         double employeeTravelAllowance=travelAllowance.calculate();

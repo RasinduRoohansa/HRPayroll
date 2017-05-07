@@ -17,7 +17,7 @@ public class OvertimeTest {
         double hourlyRate=1000.00;
         Overtime overtime=new Overtime(workedHours,overTimePackage,hourlyRate);
         double employeeOvertime=overtime.calculate();
-        assertThat(employeeOvertime,is(6000));
+        assertThat(employeeOvertime,is(6000.0));
     }
 
 }

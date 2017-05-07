@@ -1,5 +1,6 @@
 package com.qualitycoder.groupG;
 
+import com.qualitycoder.groupG.types.MedicalFee;
 import org.junit.Test;
 
 

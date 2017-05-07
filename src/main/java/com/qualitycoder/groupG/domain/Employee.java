@@ -1,9 +1,8 @@
-package com.qualitycoder.groupG;
-
-import com.qualitycoder.groupG.domain.PaySheet;
+package com.qualitycoder.groupG.domain;
 
 /**
- * Created by pravindap on 5/7/17.
+ * @author pravindap on 5/7/17.
+ * @author Amila-Kumara
  */
 public class Employee {
 

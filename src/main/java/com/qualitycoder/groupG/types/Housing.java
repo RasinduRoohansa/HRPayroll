@@ -1,7 +1,7 @@
-package com.qualitycoder.groupG;
+package com.qualitycoder.groupG.types;
 
 /**
- * Created by iSeeQ on 5/7/2017.
+ * @author iSeeQ on 5/7/2017.
  */
 public class Housing extends Benifit{
     @Override

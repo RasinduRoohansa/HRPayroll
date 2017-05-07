@@ -1,5 +1,6 @@
 package com.qualitycoder.groupG;
 
+import com.qualitycoder.groupG.types.TravelAllowance;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

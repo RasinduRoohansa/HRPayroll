@@ -1,5 +1,7 @@
 package com.qualitycoder.groupG;
 
+import com.qualitycoder.groupG.domain.Employee;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;

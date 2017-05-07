@@ -3,7 +3,7 @@ package com.qualitycoder.groupG.types;
 /**
  * @author iSeeQ on 5/7/2017.
  */
-public class TravelAllowance extends Benifit{
+public class TravelAllowance implements Benefit {
 
     private boolean hasACar;
     public TravelAllowance(boolean hasACar) {

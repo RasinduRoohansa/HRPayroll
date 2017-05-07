@@ -1,5 +1,6 @@
 package com.qualitycoder.groupG;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -25,9 +26,39 @@ public class Employee {
         this.empId = empId;
     }
 
-    public Employee viewEmployeeDetails(String empId){
-             return  new Employee();
+    public Employee(){
+
     }
+
+    public Employee(String empId, String name, Character gender, String dob, String designation, Double basicSalary,
+                    Double epfContribution, String phoneNumber, String address){
+        this.empId = empId;
+        this.name=name;
+        this.gender=gender;
+        this.dob=dob;
+        this.designation=designation;
+        this.basicSalary=basicSalary;
+        this.epfContribution=epfContribution;
+        this.phoneNumber=phoneNumber;
+        this.address=address;
+    }
+
+
+
+    public Employee viewEmployeeDetails(String empId,ArrayList<Employee> employees){
+        Employee emp=null;
+        for(Employee employee:employees) {
+            if (empId.equals(employee.getEmpId())) {
+                emp= employee;
+
+            }
+        }
+
+        return emp;
+
+
+    }
+
 
     public String getEmpId() {
         return empId;
